@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Atenas</title>
+    <style>
+        
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Guerrilla&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+:root{
+--cor01:  #EDC558;
+--cor02:   #F0B71C;
+--cor03:   #EDB358;
+--cor04:   #edd758; }
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    text-align: center;
+}
+header {
+    background-color: var(--cor01);
+    margin: 0px;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', 'sans-serif';
+    font-size: larger;
+}
+h1 {
+    padding-bottom: 10px;
+    color: #fff4b4;
+}
+nav {
+    text-align: left;
+    background-color: var(--cor03);
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+nav > a{
+    margin: 2px;
+    text-decoration: none;
+    color: bisque;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 9px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: rgb(209, 140, 55);
+    transition-duration: .5s;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.623)
+
+    
+}
+main > h2 {
+    text-align: justify;
+    height: 59px;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+}
+h3 {
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Playfair Display', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+p {
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+}
+ footer {
+    background-color: var(--cor03);
+    height: 67px;
+ }
+ footer > p {
+    text-align: center;
+    padding-top: 10px;
+ }
+ abbr {
+    background-color: var(--cor03);
+    border-radius: 5px;
+    text-decoration: none;
+    color:  #503403 ;
+    padding-left: 3px;
+    padding-right: 3px;
+ }
+ aside {
+    background-color: var(--cor04);
+    margin-top: 33px;
+    height: 540px;
+    width: 800px;
+    margin-left: 260px;
+    border-radius: 10px;
+    padding: 15px;
+ }
+h4 {
+    text-align: left;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 23px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+aside > p {
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+#main2 {
+    margin-top: 33px;
+    margin-bottom: 22px;
+}
+.imagetext {
+    text-align: center;
+    padding-bottom: 10px;
+}
+div {
+    background-color: #EDB358;
+    height: 427px;
+    padding-top: 21px;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 165px;
+    margin-top: 10px;
+}
+#Bib {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 47px;
+
+}
+#carac {
+    padding-left: 20px;
+}
+#rela {
+    padding-top: 20px;
+}
+a {
+    color: #8d7021;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffd970;
+}
+#mds {
+    padding-left: 283px
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Atenas</h1>
+            <nav>
+                <a href="#">Caracteristícas</a> <a href="#rela">Relações Vizinhas</a> <a href="#Bib">Bibliografia</a>
+            </nav>
+    </header>
+    <main>
+        <h2>Características</h2>
+            <h3>Sociais e Políticas</h3>
+            <p>     Apesar do conceito de democracia, havia uma diferença entre um cidadão ateniense e o resto da população, onde os critérios eram os seguintes:
+                 <br>
+                    <p>
+                        'A cidadania ateniense poderia ser resumida da seguinte maneira: são considerados
+                        cidadãos apenas indivíduos do sexo masculino a partir dos dezoito anos de idade e que
+                        participavam das reuniões e deliberações da Assembleia.'
+                    </p>
+                 <br>
+                </p>
+                <p>Os cidadãos eram considerados como o povo (dêmos), exercendo o
+                    controle político, e não se confundiam com a população. A pólis era a
+                    <abbr title="comunhão, companheirismo">koinonía</abbr> <abbr title="associada ao modelo de cidade pólis, e 'tikós' se referindo a algo público">politiké</abbr>, de homens adultos, de condição livre <abbr title="liberdade">eleutheroí</abbr>,
+                    com direito à participação política, à propriedade da terra e a defesa
+                    do território cívico, soldados (hoplitas). Eles tinham os mesmos
+                    direitos e deveres, as mesmas instituições, os mesmos cultos e
+                    gerenciavam coletivamente o interesse do grupo (politaí) e da
+                    população global. Os politaí, eleutheroí eram aqueles que possuíam os
+                    direitos políticos, elegendo ou sendo eleitos para exercerem uma
+                    função pública, participando ativamente no espaço político.
+                    <br></p> <br>
+                <p>Mulheres, crianças, velhos, escravos e
+                    metecos não eram compreendidos como um conjunto em si mesmo,
+                    distinto e exterior à pólis. Eles eram bem heterogêneos e
+                    desigualmente integrados, mas eles eram indissociáveis do sistema
+                    políade. O direito de cidadania em Atenas advinha do fato de ser
+                    homem, livre, nascido em Atenas, ser filho de pai ou mãe ateniense,
+                    ser reconhecido pela phatria de seu pai, inscrito nos registros cívicos. <br>
+                    </p> <br>
+                    <p>Apesar da exclusão daqueles que não faziam parte dos critérios da cidadania ateniense, fazia parte dos valores e bons costumes do cidadão ateniense, que sempre era politicamente ativo, representá-los, além de outros elementos sociais: <br>
+                        'Outros requisitos eram exigidos em complemento a definição do modelo ideal de
+                        cidadão. Tais características são apontadas por Aristóteles na Ética à Nicômaco, como
+                        sendo: a temperança (sophrosýne), a bondade (praótes), a liberdade (eleutheriótes), a
+                        verdade (alétheia), a reserva (aidós), a justa indignação (gémesis), a amizade e o amor
+                        (philía), a piedade (eusébeia) e a disciplina (eutaxía), a honra (time) e a honestidade
+                        (agathón), a coragem, ao saber, a faculdade de opinar, a sabedoria, o conhecimento, a
+                        inteligência, entre outros'
+                        </p>
+            <h3>Geográficas</h3>
+            <p>A pólis (ou cidade-estado) de Atenas estava localizada na península Ática, uma região do litoral grego muito acidentada e com poucas terras férteis</p> <br>
+            <p>O território é muito acidentado, com grande quantidade de desfiladeiros e maciços montanhosos que ocupam cerca de 40% da superfície. Quatro linhas de montanhas não muito elevadas (Égelo, Himeto, Pentélico e Láurion) dividem o território em três planícies: Pédia, Mesogeia e Triásia. <br> <br>
+            As planícies não são muito férteis nem bem irrigadas. Os rios mais importantes são o Cefiso (há dois com esse nome), o Erídano e o Ílisso. O maior deles é o Cefiso que nasce no Parnes e atravessa a planície em que se localizam Atenas, a mais importante comunidade da região, e o Pireu, seu porto.</p>
+            <div><img src="./aticamaior.jpg" alt=""></div>
+            <p class="imagetext">Região onde se situa Atenas Antiga</p>
+            <div><img src="./atenasmenor.jpg" alt=""></div>
+            <p class="imagetext">Atenas, dentro de Ática</p>
+    </main>
+    <aside>
+        <h4>Curiosidade Mitológica</h4>
+                            <p>Apesar da Mitologia ser presente no território Grego no geral, há uma deusa grega associada especificamente à pólis de Atenas, que é de grande importância pra mitologia. Grande
+                            parte dos deuses gregos são filhos de Zeus, no entanto Atena é sempre colocada como
+                            “a filha de Zeus”, como se fosse a principal de toda a sua prole. A imagem de Atena é bastante presente em Homero, tanto na Ilíada quanto na
+                            Odisséia. É a deusa protetora; conselheira;
+                            inspiradora. Ela é aquela que engendra na mulher o dom para o artesanato, que lhe dota
+                            de sabedoria para os trabalhos manuais, dentro de um contexto doméstico, privado, uma divindade que representa feminilidade, além de ser protetora e vista também como deusa da guerra</p>
+                            <img src="./deusa-grega-atena.webp" alt="">
+                            <p id="mds">Escultura da Deusa Atena</p>
+    </aside>
+        
+
+        <main id="main2">
+            <h3>Econômicas</h3>
+            <p>Atenas Antiga foi uma sociedade, obviamente, pré-capitalista. E é possível dizer que pólis e comércio, apesar de interagirem de alguma forma, são conceitos necessariamente exteriores um ao outro. A pólis, domínio do político, portanto do cidadão,
+            prepondera sobre o comércio, domínio do meteco, do estrangeiro, do outro, se valendo dele apenas
+            naquilo que interessa ao corpo dos cidadãos. <br></p>
+                <p>De acordo com textos remanescentes de oradores do século IV a.C pode-se perceber o
+                    indicativo de uma divisão do trabalho desatrelada da condição de status, diferentemente daquilo que
+                    é proposto nos modelos de cidade ideal de Platão e Aristóteles. Na democracia ateniense real,
+                    metecos, cidadãos pobres, escravos e libertos compartilhavam muitas vezes os mesmos espaços de
+                    trabalho e não há coincidência entre status e ocupação.
+                    </p>
+                    <p>Até o momento é possível concluir que havia pessoas na Atenas do século IV a.C. que
+                    conseguiam viver à margem da produção e ainda possuir grande riqueza e poder de influência
+                    política onde o mercado e produção agrícola, em dois níveis diferentes, se
+                    articulam, na Atenas Clássica, pela lógica do valor de uso. Há relatos diversos da ocorrência de
+                    variações bruscas nos preços dos cereais em períodos de guerra, variação climática que punha a
+                    perder uma colheita, etc... mas esses acontecimentos fugiam à esfera do mercado.
+                    </p>
+        <h2 id="rela">Relações Vizinhas</h2>
+        <h3>Esparta</h3>
+            <p>Após as Guerras Médicas, Esparta e Atenas despontaram como as
+                duas principais potências no mundo grego. Foi a rivalidade entre essas
+                duas cidades que levou à eclosão da Guerra do Peloponeso (431-404). O
+                crescente poderio de Atenas após a vitória sobre os persas foi sentido como
+                uma ameaça pelos espartanos. Os atenienses consolidavam seu poder no
+                Mar Egeu e ainda buscava ampliar suas posições no Peloponeso. </p>
+        <h3>Corinto</h3>
+            <p>Atenas e Corinto eram cidades rivais. Os coríntios entraram em guerra contra a cidade de Mégara pelo domínio do istmo que ligava a Península do Peloponeso com a Grécia Continental, em 405 a.C. Os atenienses apoiaram Mégara enquanto Esparta ficou do lado de Corinto. Era o primeiro conflito em que as duas ligas se colocaram em lados opostos. Alguns historiadores denominam essa guerra entre Corinto e Mégara como a Primeira Guerra do Peloponeso, ocorrida entre 460 a.C. e 445 a.C.
+
+            Em 445 a.C., as duas cidades assinaram um acordo de paz, encerrando o conflito, mas as rivalidades entre atenienses e espartanos só aumentaram após essa guerra.    </p> 
+        <h3>Liga de Delos</h3>
+            <p>A Liga de Delos foi constituída em 478 e tinha como principal objetivo
+                formar uma aliança entre as cidades gregas para acabar com o domínio persa
+                no mar Egeu. De início as cidades aliadas mantiveram suas independências,
+                mas logo caíram sob o domínio ateniense. <br> <br>
+                As cidades da Liga deveriam participar do esforço comum de eliminar a
+                ameaça persa no mar Egeu. Para isso, seus membros teriam que contribuir
+                com barcos e contingentes, ou pagar tributos destinados a cobrir os gastos
+                com a construção de barcos, armas e manutenção das tropas. A grande
+                maioria das cidades contentou-se em pagar os tributos e não se envolver
+                diretamente com os esforços de guerra.</p>
+        <h2 id="Bib">Bibliografia</h2>
+        <h3 id="carac">Características:</h3>
+        <a href="http://www.nehmaat.uff.br/revista/2012-2/artigo05-2012-2.pdf" target="_blank">
+            <p>Sociais e Políticas</p> 
+        </a>
+        <a href="https://greciantiga.org/arquivo.asp?num=1117" target="_blank">
+            <p>Geográficas</p>
+        </a>
+        <a href="https://sedici.unlp.edu.ar/handle/10915/83766" target="_blank">
+            <p>Econômicas</p>
+        </a>
+        <a href="https://cesad.ufs.br/ORBI/public/uploadCatalago/09530713022012Historia_Antiga_I_aula_8.pdf" target="_blank">
+            <p>Relações Vizinhas</p>
+        </a>
+        </main>
+    <footer>
+        <p>Grupo: Janaína, Caio, Gabriela, Letícia</p>
+        <p>1º ano C</p>
+    </footer>
+</body>
+</html>
